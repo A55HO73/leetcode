@@ -3,4 +3,4 @@ class Solution:
         d={}
         for i,j in enumerate(sorted(set(arr))):
             d[j]=i+1
-        return [d[i] for i in arr]
+        return (d[i].values())
